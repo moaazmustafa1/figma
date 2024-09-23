@@ -1,0 +1,209 @@
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  :root{
+      --main-color:whitesmoke;
+    
+      --main-duration: all .3s;
+  }
+  /* Small */
+  @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+    /* Medium */
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+    }
+    /* Large */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+      /* xlarge */
+      @media (min-width: 1400px) {
+        .container {
+          width: 1370px;
+        }
+    }
+  html{
+      scroll-behavior: smooth;
+  }
+  body{
+      font-family: "Quicksand", sans-serif;
+      color: var(--main-color);
+  
+  }
+  .container,.container-2{
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 70%;
+  
+  }
+  body{
+    background-color: black;
+    
+  }
+  .Home header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Home img{
+    width: 206px;
+  }
+  nav{
+    padding-top: 10px;
+  }
+  .Home nav a{
+    padding-left: 31px;
+    text-decoration: none;
+    color: whitesmoke;
+    transform: scale(1.03);
+    &:hover{
+        color: palevioletred;
+    }
+  }
+  .Home button{
+    background-color: black;
+    color: white;
+    border: 1px whitesmoke solid;
+    margin-top: 10px;
+    margin-left: 40px;
+    transition: all 0.3s;
+    padding: 10px 20px;
+    &:hover{
+        transform: scale(1.03);
+    }
+  }
+  .Home .pargraph, .contents .pargraph, .feature .pargraph, .partener .pargraph, .Testimonials .pargraph{
+    text-align: center;
+    color: whitesmoke;
+    padding: 30px 0
+  }
+  .pargraph p{
+    font-size : small;
+  }
+  .Home .buttons{
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+  .Home .buttons button{
+    padding: 15px 30px;
+  }
+  .Home .buttons :first-child{
+    background-color: blue;
+    border: 1px solid blue;
+    margin-bottom: 250px;
+  }
+  
+
+  .Home .screen img {
+   max-width: 1000px;
+
+  }
+  .feature .feat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contents .cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+  }
+  .cards .work,.design{
+    border-radius: 10px;
+    background-color: white;
+    height: 624px;
+    width: 476px;
+    /* text-align: center; */
+  }
+ 
+  .cards p, .cards h1{
+    color: black;
+  }
+  .cards button{
+    /* text-align: center; */
+    background-color: blue;
+    border: 1px solid blue;
+    width: 157px;
+    height: 52px;
+    color: whitesmoke;
+  }
+
+  .cards .work button{
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+
+  .gallery .pargraph{
+    margin-top: 100px;
+    text-align: center;
+  }
+  .gallery .row-1 , .row-2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+  }
+  .gallery .row-1{
+    margin-bottom: 20px;
+  }
+  .gallery img{
+    border-radius: 12px;
+  }
+  .gallery button, .partener button{
+    background-color: black;
+    color: white;
+    border: 1px whitesmoke solid;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 30px;
+  }
+  .gallery .buttons,.partener .buttons{
+    text-align: center;
+  }
+
+  .partener .application{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .partener .application img{
+    padding-left: 40px;
+    width: 50px;
+    height: 60px;
+  }
+
+
+  .Testimonials .persons{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 30px;
+    
+  }
+  .Testimonials .persons p,.Testimonials .persons img{
+    padding-left: 40px;
+  }
+  .Testimonials .persons div{
+    border: 1px whitesmoke solid;
+    border-radius: 12px;
+  }
+
+
+
+ 
